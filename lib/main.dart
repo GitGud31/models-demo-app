@@ -7,8 +7,6 @@ void main() {
   runApp(MyApp());
 }
 
-//TODO: Create Screens for: Buttons, Loaders, Loading screens,
-// Each Screen is a scaffold, with a ListView, so put Buttons, Loaders etc...
 
 class MyApp extends StatelessWidget {
   @override
