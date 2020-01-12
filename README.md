@@ -1,6 +1,6 @@
 # my_flutter_screens
 
-A new Flutter project.
+A simple Flutter demo App that showcases some: Buttons, Loaders, Dialog Alerts, ...etc
 
 ## Getting Started
 
