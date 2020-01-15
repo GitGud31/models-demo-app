@@ -4,7 +4,7 @@ class RoundOnlyTextButton extends StatelessWidget {
   final Color backgroundColor;
   final Text buttonText;
   final Color textColor;
-  Function onPressed = () => {};
+  final Function onPressed;
 
   RoundOnlyTextButton(
       {

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'screen_pages_state/ButtonsPage.dart';
+import 'package:flutter_login_screens/screen_pages_state/ButtonsScreen.dart';
+import 'package:flutter_login_screens/screen_pages_state/LoadersScreen.dart';
+import 'package:flutter_login_screens/screen_pages_state/LoginScreenPage.dart';
+import 'package:flutter_login_screens/screen_pages_state/RatingApp.dart';
 import 'test.dart';
 
 void main() {
@@ -7,8 +10,6 @@ void main() {
   runApp(MyApp());
 }
 
-//TODO: Create Screens for: Buttons, Loaders, Loading screens,
-// Each Screen is a scaffold, with a ListView, so put Buttons, Loaders etc...
 
 class MyApp extends StatelessWidget {
   @override
@@ -54,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ButtonsPage(),
+                      builder: (context) => ButtonsScreen(),
                     ),
                   );
                 },
@@ -71,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ForTest(),
+                      builder: (context) => LoginScreenPage(),
                     ),
                   );
                 },
@@ -88,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ForTest(),
+                      builder: (context) => LoadersScreen(),
                     ),
                   );
                 },
@@ -105,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => ForTest(),
+                      builder: (context) => RatingAppScreen(),
                     ),
                   );
                 },
