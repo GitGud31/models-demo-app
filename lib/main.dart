@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_login_screens/screen_pages_state/ButtonsScreen.dart';
 import 'package:flutter_login_screens/screen_pages_state/LoadersScreen.dart';
 import 'package:flutter_login_screens/screen_pages_state/LoginScreenPage.dart';
-import 'package:flutter_login_screens/screen_pages_state/RatingApp.dart';
+import 'package:flutter_login_screens/screen_pages_state/RatingAppScreen.dart';
 import 'test.dart';
 
 void main() {
